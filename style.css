@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Html */
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f1f1f1
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+p {
+    font-family: "Inter", sans-serif;
+    color: #494848;
+    font-size: 1rem;
+    line-height: 1.6;
+
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 1px 2px 20px #978484;
+}
+
+/* Header */
+
+header {
+    background-color: #71291D;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+header img {
+    width: 200px;
+    border: 5px solid #FFFFF0;
+    border-radius: 50%;
+    box-shadow: 1px 2px 20px #2b2a2a;
+    margin-bottom: 10px;
+    object-fit: cover;
+
+}
+
+header h1 {
+    color: #FFFFF0;
+}
+
+header p {
+    color: #FFFFF0;
+}
+
+/* Section */
+
+section {
+    padding: 20px 25px;
+}
+
+
+
+section h2 {
+    color: #71291D;
+    border-bottom: 1px solid #64504d;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+section p {
+    margin-top: 10px;
+}
+
+/* Experience */
+.experience ul {
+    padding-left: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.experience ul li {
+    color: #494848;
+}
+
+.education {
+    margin-bottom: 20px;
+}
+
+/* Skill */
+
+.skill ul {
+    list-style-type: none;
+    display: flex;
+    gap: 12px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.skill li {
+    background-color: #71291D;
+    padding: 10px;
+    color: #FFFFF0;
+    border-radius: 18px;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.skill li:hover {
+    background-color: #d13a1f;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+
+
+/*languages*/
+
+.languages ul {
+    list-style-type: none;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.languages li {
+    background-color: #71291D;
+    padding: 10px;
+    color: #FFFFF0;
+    border-radius: 18px;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.languages li:hover {
+    background-color: #d13a1f;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+
+
+/* beyond-curriculum */
+
+.beyond-curriculum ul {
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+.beyond-curriculum li{
+    color: #494848;
+}
+
+/* Footer */
+
+footer{
+    background-color: #1C1C1C;
+    text-align: center;
+    padding: 20px;
+    font-size: 1rem;
+}
+
+footer p{
+    color: #FFFFF0;
+}
